@@ -1,6 +1,6 @@
 package CreationPattern.SimpleFacotry;
 
-class Toyota implements Car {
+public class Toyota implements Car {
     private String owner;
 
     Toyota(String buyer) {
@@ -11,5 +11,9 @@ class Toyota implements Car {
     @Override
     public void run() {
         System.out.println(this.owner + "'s Toyota is running");
+    }
+
+    public static Car buildToyota(String buyer) {
+        return new Toyota(buyer);
     }
 }

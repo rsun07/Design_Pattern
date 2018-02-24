@@ -5,7 +5,7 @@ import CreationPattern.SimpleFacotry.CarElements.Seat;
 import CreationPattern.SimpleFacotry.CarElements.Wheel;
 import CreationPattern.SimpleFacotry.CarElements.Window;
 
-class BMW implements Car {
+public class BMW implements Car {
     // why use factory?
     // Demeter Principle, let the client know as less as they can, how the car is built
 
@@ -32,5 +32,9 @@ class BMW implements Car {
     @Override
     public void run() {
         System.out.println(this.owner + "'s BMW is running");
+    }
+
+    public static Car buildBMW(String buyer) {
+        return new BMW(buyer);
     }
 }
