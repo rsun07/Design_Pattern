@@ -1,0 +1,35 @@
+# Java
+*.class
+*.jar
+*.war
+*.tar
+[Bb]in/
+
+# Maven
+target/
+*pom.xml.releaseBackup
+release.properties
+
+# Git
+*.diff
+*.orig
+*.swp
+*git.conf
+
+# Eclipse
+.project
+.settings
+.classpath
+.metadata
+
+# Intellij
+out
+.idea
+*.iml
+.checkstyle
+
+# Temp
+tmp/
+temp/
+
+
