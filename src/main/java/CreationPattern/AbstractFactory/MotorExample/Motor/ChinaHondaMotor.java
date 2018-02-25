@@ -1,4 +1,4 @@
-package CreationPattern.AbstractFactory.MotorExample;
+package CreationPattern.AbstractFactory.MotorExample.Motor;
 
 import CreationPattern.AbstractFactory.MotorExample.Elements.ElementsAggregator;
 

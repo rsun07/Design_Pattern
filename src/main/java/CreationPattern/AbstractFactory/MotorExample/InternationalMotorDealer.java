@@ -2,6 +2,10 @@ package CreationPattern.AbstractFactory.MotorExample;
 
 import CreationPattern.AbstractFactory.MotorExample.Elements.CustomizedChoicedElements;
 import CreationPattern.AbstractFactory.MotorExample.Elements.EngineChoice;
+import CreationPattern.AbstractFactory.MotorExample.Factory.ChinaMotorFactory;
+import CreationPattern.AbstractFactory.MotorExample.Factory.InternationalMotorFactory;
+import CreationPattern.AbstractFactory.MotorExample.Factory.USMotorFactory;
+import CreationPattern.AbstractFactory.MotorExample.Motor.Motor;
 
 public class InternationalMotorDealer {
 

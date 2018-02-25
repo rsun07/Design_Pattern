@@ -1,6 +1,9 @@
-package CreationPattern.AbstractFactory.MotorExample;
+package CreationPattern.AbstractFactory.MotorExample.Factory;
 
 import CreationPattern.AbstractFactory.MotorExample.Elements.CustomizedChoicedElements;
+import CreationPattern.AbstractFactory.MotorExample.Motor.Motor;
+import CreationPattern.AbstractFactory.MotorExample.Motor.USHondaMotor;
+import CreationPattern.AbstractFactory.MotorExample.Motor.USYamahaMotor;
 
 public class USMotorFactory implements InternationalMotorFactory {
         @Override

@@ -1,6 +1,7 @@
-package CreationPattern.AbstractFactory.MotorExample;
+package CreationPattern.AbstractFactory.MotorExample.Factory;
 
 import CreationPattern.AbstractFactory.MotorExample.Elements.*;
+import CreationPattern.AbstractFactory.MotorExample.Motor.Motor;
 
 public interface InternationalMotorFactory {
     Motor buildHondaMotor(CustomizedChoicedElements elements);
