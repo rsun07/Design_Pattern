@@ -10,7 +10,7 @@ public class DoubleCheckedLockingInit extends Singleton {
 
     // DON'T use it!!!
     // Not thread safe
-    public static Singleton getInstanceThreadUnsafe() {
+    private static Singleton getInstanceThreadUnsafe() {
         if (singleton == null) {
             // if thread 1 and 2 get here at the same time,
             // then it lock thread 2, allow thread 1 to create a new instance
@@ -22,11 +22,11 @@ public class DoubleCheckedLockingInit extends Singleton {
         return singleton;
     }
 
-    public static synchronized Singleton getInstance() {
+    public static Singleton getInstance() {
         if (singleton == null) {
             synchronized (DoubleCheckedLockingInit.class) {
                 if (singleton == null) {
-                    singleton = new DoubleCheckedLockingInit("DoubleCheckedLocking Initialization");
+                    singleton = new DoubleCheckedLockingInit("Double Checked Locking Initialization");
                 }
             }
         }

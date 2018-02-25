@@ -1,14 +1,12 @@
 package CreationPatterns.Singleton;
 
-import CreationPatterns.Singleton.EagerInitialization;
-import CreationPatterns.Singleton.Singleton;
 import org.junit.Test;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Objects;
 
-public class ReflectionDestorySingleton {
+public class ReflectionDestorySingletonTest {
     @Test
     public void test() {
 
