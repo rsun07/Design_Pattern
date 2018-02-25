@@ -1,4 +1,4 @@
-package CreationPatterns.AbstractFactory.DepartmentStore;
+package CreationPatterns.AbstractFactory.HomeApplianceExample.DepartmentStore;
 
 import CreationPatterns.AbstractFactory.HomeApplianceExample.Factory.HaierFactory;
 import CreationPatterns.AbstractFactory.HomeApplianceExample.Factory.HomeApplianceFactory;
@@ -8,11 +8,5 @@ public class HaierDealer implements DepartmentStore {
 
     public static HomeApplianceFactory getHaierDealerMenu() {
         return HAIER_FACTORY;
-    }
-
-    public static void main(String[] args) {
-        HaierDealer.getHaierDealerMenu().buyRefregirator();
-        HaierDealer.getHaierDealerMenu().buyAirConditioner();
-
     }
 }

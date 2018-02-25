@@ -2,13 +2,15 @@ package CreationPatterns.Singleton;
 
 import CreationPatterns.Singleton.EagerInitialization;
 import CreationPatterns.Singleton.Singleton;
+import org.junit.Test;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Objects;
 
 public class ReflectionDestorySingleton {
-    public static void main(String[] args) throws ClassNotFoundException {
+    @Test
+    public void test() {
 
         Singleton singleton1 = EagerInitialization.getEagerInitialization();
         Singleton singleton2 = null;
@@ -31,7 +33,7 @@ public class ReflectionDestorySingleton {
                 "3 : HashCode for singleton 3 : %d \n",
                 singleton1.hashCode(),
                 Objects.requireNonNull(singleton2).hashCode(),
-                singleton3.hashCode()
+                Objects.requireNonNull(singleton3).hashCode()
 
         );
     }
