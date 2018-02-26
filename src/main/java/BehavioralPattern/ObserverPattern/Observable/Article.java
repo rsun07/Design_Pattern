@@ -1,4 +1,4 @@
-package StructuralPattern.ObserverPattern.Observable;
+package BehavioralPattern.ObserverPattern.Observable;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

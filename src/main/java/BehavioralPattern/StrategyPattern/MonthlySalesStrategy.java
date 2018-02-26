@@ -1,4 +1,4 @@
-package StructuralPattern.StrategyPattern;
+package BehavioralPattern.StrategyPattern;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

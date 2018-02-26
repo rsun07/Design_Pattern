@@ -1,4 +1,4 @@
-package StructuralPattern.StrategyPattern;
+package BehavioralPattern.StrategyPattern;
 
 import java.util.Calendar;
 

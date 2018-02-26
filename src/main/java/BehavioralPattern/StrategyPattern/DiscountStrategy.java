@@ -1,4 +1,4 @@
-package StructuralPattern.StrategyPattern;
+package BehavioralPattern.StrategyPattern;
 
 public interface DiscountStrategy {
     default double cost(double cost) {

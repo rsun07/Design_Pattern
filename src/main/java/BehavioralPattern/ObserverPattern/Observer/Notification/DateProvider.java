@@ -1,4 +1,4 @@
-package StructuralPattern.ObserverPattern.Observer.Notification;
+package BehavioralPattern.ObserverPattern.Observer.Notification;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

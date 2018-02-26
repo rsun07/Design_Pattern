@@ -1,4 +1,4 @@
-package StructuralPattern.StrategyPattern;
+package BehavioralPattern.StrategyPattern;
 
 public class ChristmasStrategy implements DiscountStrategy {
 

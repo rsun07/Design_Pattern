@@ -1,9 +1,9 @@
-package StructuralPattern.ObserverPattern.Observer.Observer;
+package BehavioralPattern.ObserverPattern.Observer.Observer;
 
-import StructuralPattern.ObserverPattern.Observable.Blog;
-import StructuralPattern.ObserverPattern.Observer.Notification.BillingNotification;
-import StructuralPattern.ObserverPattern.Observer.Notification.NewArticleUpdate;
-import StructuralPattern.ObserverPattern.Observer.Notification.ShutdownNotification;
+import BehavioralPattern.ObserverPattern.Observable.Blog;
+import BehavioralPattern.ObserverPattern.Observer.Notification.BillingNotification;
+import BehavioralPattern.ObserverPattern.Observer.Notification.NewArticleUpdate;
+import BehavioralPattern.ObserverPattern.Observer.Notification.ShutdownNotification;
 
 import java.util.*;
 

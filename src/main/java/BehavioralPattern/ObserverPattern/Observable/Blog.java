@@ -1,6 +1,6 @@
-package StructuralPattern.ObserverPattern.Observable;
+package BehavioralPattern.ObserverPattern.Observable;
 
-import StructuralPattern.ObserverPattern.Observer.Notification.NotificationType;
+import BehavioralPattern.ObserverPattern.Observer.Notification.NotificationType;
 import lombok.Getter;
 
 import java.util.ArrayList;

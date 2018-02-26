@@ -1,9 +1,5 @@
-package SturcturalPattern.StrategyPattern;
+package BehavioralPattern.StrategyPattern;
 
-import StructuralPattern.StrategyPattern.BlackFridayStrategy;
-import StructuralPattern.StrategyPattern.ChristmasStrategy;
-import StructuralPattern.StrategyPattern.MonthlySalesStrategy;
-import StructuralPattern.StrategyPattern.Shop;
 import org.junit.Test;
 
 public class ShopTest {

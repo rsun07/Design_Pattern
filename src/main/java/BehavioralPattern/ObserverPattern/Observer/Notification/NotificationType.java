@@ -1,4 +1,4 @@
-package StructuralPattern.ObserverPattern.Observer.Notification;
+package BehavioralPattern.ObserverPattern.Observer.Notification;
 
 public enum NotificationType {
     ARTICLE_UPDATE,

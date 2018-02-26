@@ -1,8 +1,8 @@
-package SturcturalPattern.ObserverPattern;
+package BehavioralPattern.ObserverPattern;
 
-import StructuralPattern.ObserverPattern.Observable.Article;
-import StructuralPattern.ObserverPattern.Observable.Blog;
-import StructuralPattern.ObserverPattern.Observer.Observer.BlogSubscriber;
+import BehavioralPattern.ObserverPattern.Observable.Article;
+import BehavioralPattern.ObserverPattern.Observable.Blog;
+import BehavioralPattern.ObserverPattern.Observer.Observer.BlogSubscriber;
 import org.junit.Test;
 
 public class BlogSubscriberTest {

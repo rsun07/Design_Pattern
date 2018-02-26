@@ -1,4 +1,4 @@
-package StructuralPattern.StrategyPattern;
+package BehavioralPattern.StrategyPattern;
 
 public class BlackFridayStrategy implements DiscountStrategy {
     @Override

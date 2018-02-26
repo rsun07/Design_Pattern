@@ -1,6 +1,6 @@
-package StructuralPattern.ObserverPattern.Observer.Notification;
+package BehavioralPattern.ObserverPattern.Observer.Notification;
 
-import StructuralPattern.ObserverPattern.Observable.Blog;
+import BehavioralPattern.ObserverPattern.Observable.Blog;
 
 import java.util.Observable;
 import java.util.Observer;
