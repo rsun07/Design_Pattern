@@ -21,11 +21,10 @@ public class BuilderAndPrototypeTest {
 
     @Test(expected = AssertionError.class)
     public void testShallowCopy() {
-        ClassRegister classRegisterShallowCopy =
-                this.classRegister.cloneShallow();
+        ClassRegister classRegisterShallowCopy = classRegister.cloneShallow();
         Assert.assertEquals(classRegisterShallowCopy.getClassroom(), classRegister.getClassroom());
 
-        boolean studentIdentical = classRegisterShallowCopy.getStudents() == this.classRegister.getStudents();
+        boolean studentIdentical = classRegisterShallowCopy.getStudents() == classRegister.getStudents();
         System.out.println(studentIdentical);
         try {
             Assert.assertFalse(studentIdentical);
@@ -37,11 +36,10 @@ public class BuilderAndPrototypeTest {
 
     @Test
     public void testDeepCopy() {
-        ClassRegister classRegisterShallowCopy =
-                this.classRegister.clone();
+        ClassRegister classRegisterShallowCopy = classRegister.clone();
         Assert.assertEquals(classRegisterShallowCopy.getClassroom(), classRegister.getClassroom());
 
-        boolean studentIdentical = classRegisterShallowCopy.getStudents() == this.classRegister.getStudents();
+        boolean studentIdentical = classRegisterShallowCopy.getStudents() == classRegister.getStudents();
         System.out.println(studentIdentical);
         Assert.assertFalse(studentIdentical);
     }
