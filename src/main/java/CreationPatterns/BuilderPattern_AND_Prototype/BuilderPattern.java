@@ -1,4 +1,4 @@
-package CreationPatterns.BuilderPattern;
+package CreationPatterns.BuilderPattern_AND_Prototype;
 
 public class BuilderPattern {
     public static void main(String[] args) {
