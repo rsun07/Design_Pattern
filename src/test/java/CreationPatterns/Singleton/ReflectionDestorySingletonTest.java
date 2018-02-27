@@ -35,4 +35,29 @@ public class ReflectionDestorySingletonTest {
 
         );
     }
+
+    @Test(expected = InvocationTargetException.class)
+    public void testSafeConstructor() throws Exception {
+        EagerInitSafeConstructor singleton1 = EagerInitSafeConstructor.getEagerInitialization();
+        EagerInitSafeConstructor singleton2 = null;
+
+        try {
+            Constructor<?>[] constructors = EagerInitSafeConstructor.class.getDeclaredConstructors();
+            for (Constructor<?> constructor : constructors) {
+                constructor.setAccessible(true);
+                singleton2 = (EagerInitSafeConstructor) constructor.newInstance("Reflection Initialization Destroy Singleton");
+            }
+        }catch (IllegalAccessException | InstantiationException |  InvocationTargetException e) {
+            e.printStackTrace();
+            throw e;
+        }
+
+        System.out.printf(
+                "1 : HashCode for singleton 1 : %d \n" +
+                "2 : HashCode for singleton 2 : %d \n" +
+                singleton1.hashCode(),
+                Objects.requireNonNull(singleton2).hashCode()
+
+        );
+    }
 }
