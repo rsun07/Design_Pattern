@@ -69,7 +69,8 @@ public class RentMatchTest {
     }
 
     /*
-        There is issue in this Mediator pattern,
+        At the first version,
+        there is issue in this Mediator pattern,
         the tenant may be matched with a landlord he/she doesn't expected to.
         At the time when the tenant choose another tenant by mistake,
         however, the Mediator already has a landlord cached.
@@ -77,7 +78,7 @@ public class RentMatchTest {
         To solve it, we should add check in the PersonInLease's match() method.
         If the input person has the same type as the person itself, raise exception.
      */
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void issue() {
         Mediator caMediator = new CAMediator();
 

@@ -7,6 +7,9 @@ public class Landlord extends PersonInLease {
 
     @Override
     public void match(PersonInLease person) {
+        if (this.getType() == person.getType()) {
+            throw new IllegalArgumentException("Cannot math with another landlord");
+        }
         this.mediator.setLandlord(this);
         this.mediator.match(person);
     }
