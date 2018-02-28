@@ -1,6 +1,6 @@
 package CreationPatterns.AbstractFactory.MotorExample.Elements;
 
-// a nested simple factory
+// a simple factory
 public class EngineFactory {
     public static Engine buildEngine(int volumn) {
         switch (volumn) {
