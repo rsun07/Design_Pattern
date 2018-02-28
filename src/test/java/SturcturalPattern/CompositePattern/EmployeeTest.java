@@ -1,4 +1,4 @@
-package CompositePattern;
+package SturcturalPattern.CompositePattern;
 
 import StructuralPattern.CompositePattern.*;
 import org.junit.Test;
