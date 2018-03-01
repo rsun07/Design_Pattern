@@ -1,7 +1,7 @@
 package BehavioralPattern.MediatorPattern;
 
 public class Landlord extends PersonInLease {
-    public Landlord(String name, int acceptableRent, LeasePersonType type, Mediator mediator) {
+    Landlord(String name, int acceptableRent, LeasePersonType type, Mediator mediator) {
         super(name, acceptableRent, type, mediator);
     }
 
