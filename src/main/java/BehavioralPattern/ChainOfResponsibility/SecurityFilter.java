@@ -2,7 +2,6 @@ package BehavioralPattern.ChainOfResponsibility;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Stream;
 
 public class SecurityFilter implements Filter {
     private static final int RADIX = 10;
