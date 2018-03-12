@@ -17,15 +17,15 @@ import java.util.concurrent.Executors;
  */
 public class PerformanceTest {
 
-    @Test
-    public void testThreadSafe() throws InterruptedException {
-        runIt(ThreadSafeLazyInit::getInstance);
-    }
-
-    @Test
-    public void testDoubleCheck() throws InterruptedException {
-        runIt(DoubleCheckedLockingInit::getInstance);
-    }
+//    @Test
+//    public void testThreadSafe() throws InterruptedException {
+//        runIt(ThreadSafeLazyInit::getInstance);
+//    }
+//
+//    @Test
+//    public void testDoubleCheck() throws InterruptedException {
+//        runIt(DoubleCheckedLockingInit::getInstance);
+//    }
 
     private void runIt(final Runnable r) throws InterruptedException {
         // thread pools for testing

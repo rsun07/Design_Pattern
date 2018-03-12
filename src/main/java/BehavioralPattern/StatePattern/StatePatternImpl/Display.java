@@ -1,5 +1,5 @@
 package BehavioralPattern.StatePattern.StatePatternImpl;
 
-public interface State {
-    void play(State state);
+interface Display {
+    void display(Clock clock);
 }
