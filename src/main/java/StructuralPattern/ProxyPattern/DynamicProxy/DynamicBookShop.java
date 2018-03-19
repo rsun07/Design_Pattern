@@ -1,7 +1,5 @@
 package StructuralPattern.ProxyPattern.DynamicProxy;
 
-import StructuralPattern.ProxyPattern.BookProvider;
-
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
