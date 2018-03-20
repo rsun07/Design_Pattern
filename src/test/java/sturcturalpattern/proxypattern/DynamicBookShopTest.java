@@ -1,4 +1,4 @@
-package SturcturalPattern.ProxyPattern;
+package sturcturalpattern.proxypattern;
 
 import structuralpattern.proxypattern.BookProvider;
 import structuralpattern.proxypattern.dynamicproxy.AbroadPublishingHouse;

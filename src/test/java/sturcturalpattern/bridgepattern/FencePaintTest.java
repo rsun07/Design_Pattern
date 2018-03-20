@@ -1,4 +1,4 @@
-package SturcturalPattern.BridgePattern;
+package sturcturalpattern.bridgepattern;
 
 import structuralpattern.bridgepattern.*;
 import org.junit.Test;

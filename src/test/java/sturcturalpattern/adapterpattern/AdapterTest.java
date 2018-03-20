@@ -1,4 +1,4 @@
-package SturcturalPattern.AdapterPattern;
+package sturcturalpattern.adapterpattern;
 
 import structuralpattern.adapterpattern.CompositeAdapter;
 import structuralpattern.adapterpattern.ElectricCurrent;

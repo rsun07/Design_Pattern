@@ -1,4 +1,4 @@
-package SturcturalPattern.FacadePattern;
+package sturcturalpattern.facadepattern;
 
 import structuralpattern.facadepattern.Bond;
 import structuralpattern.facadepattern.Gold;

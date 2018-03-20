@@ -1,4 +1,4 @@
-package SturcturalPattern.DecoratorPattern;
+package sturcturalpattern.decoratorpattern;
 
 import structuralpattern.decoratorpattern.AddOn.NOS;
 import structuralpattern.decoratorpattern.AddOn.SelfDriving;
