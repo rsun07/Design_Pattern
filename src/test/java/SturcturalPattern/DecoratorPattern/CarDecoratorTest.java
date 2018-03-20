@@ -1,11 +1,11 @@
 package SturcturalPattern.DecoratorPattern;
 
-import StructuralPattern.DecoratorPattern.AddOn.NOS;
-import StructuralPattern.DecoratorPattern.AddOn.SelfDriving;
-import StructuralPattern.DecoratorPattern.AddOn.Turbo;
-import StructuralPattern.DecoratorPattern.BasicCar.Car;
-import StructuralPattern.DecoratorPattern.BasicCar.Nissan;
-import StructuralPattern.DecoratorPattern.BasicCar.Tesla;
+import structuralpattern.decoratorpattern.AddOn.NOS;
+import structuralpattern.decoratorpattern.AddOn.SelfDriving;
+import structuralpattern.decoratorpattern.AddOn.Turbo;
+import structuralpattern.decoratorpattern.BasicCar.Car;
+import structuralpattern.decoratorpattern.BasicCar.Nissan;
+import structuralpattern.decoratorpattern.BasicCar.Tesla;
 import org.junit.Test;
 
 public class CarDecoratorTest {

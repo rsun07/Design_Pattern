@@ -1,8 +1,8 @@
 package SturcturalPattern.AdapterPattern;
 
-import StructuralPattern.AdapterPattern.CompositeAdapter;
-import StructuralPattern.AdapterPattern.ElectricCurrent;
-import StructuralPattern.AdapterPattern.InheritAdapter;
+import structuralpattern.adapterpattern.CompositeAdapter;
+import structuralpattern.adapterpattern.ElectricCurrent;
+import structuralpattern.adapterpattern.InheritAdapter;
 import org.junit.Test;
 
 public class AdapterTest {

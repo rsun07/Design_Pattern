@@ -1,6 +1,6 @@
 package SturcturalPattern.CompositePattern;
 
-import StructuralPattern.CompositePattern.*;
+import structuralpattern.compositepattern.*;
 import org.junit.Test;
 
 public class EmployeeTest {

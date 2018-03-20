@@ -1,9 +1,9 @@
 package SturcturalPattern.FacadePattern;
 
-import StructuralPattern.FacadePattern.Bond;
-import StructuralPattern.FacadePattern.Gold;
-import StructuralPattern.FacadePattern.Stock;
-import StructuralPattern.FacadePattern.Trader;
+import structuralpattern.facadepattern.Bond;
+import structuralpattern.facadepattern.Gold;
+import structuralpattern.facadepattern.Stock;
+import structuralpattern.facadepattern.Trader;
 import org.junit.Test;
 
 public class FacadeTest {

@@ -1,8 +1,8 @@
 package SturcturalPattern.ProxyPattern;
 
-import StructuralPattern.ProxyPattern.BookProvider;
-import StructuralPattern.ProxyPattern.DynamicProxy.AbroadPublishingHouse;
-import StructuralPattern.ProxyPattern.DynamicProxy.DynamicBookShop;
+import structuralpattern.proxypattern.BookProvider;
+import structuralpattern.proxypattern.dynamicproxy.AbroadPublishingHouse;
+import structuralpattern.proxypattern.dynamicproxy.DynamicBookShop;
 import org.junit.Test;
 
 import java.lang.reflect.Proxy;

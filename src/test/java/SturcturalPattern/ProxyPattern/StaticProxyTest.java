@@ -1,8 +1,8 @@
 package SturcturalPattern.ProxyPattern;
 
-import StructuralPattern.ProxyPattern.BookProvider;
-import StructuralPattern.ProxyPattern.StaticProxy.BookShop;
-import StructuralPattern.ProxyPattern.StaticProxy.PublishingHouse;
+import structuralpattern.proxypattern.BookProvider;
+import structuralpattern.proxypattern.staticproxy.BookShop;
+import structuralpattern.proxypattern.staticproxy.PublishingHouse;
 import org.junit.Test;
 
 public class StaticProxyTest {

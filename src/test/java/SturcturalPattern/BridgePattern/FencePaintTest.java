@@ -1,6 +1,6 @@
 package SturcturalPattern.BridgePattern;
 
-import StructuralPattern.BridgePattern.*;
+import structuralpattern.bridgepattern.*;
 import org.junit.Test;
 
 public class FencePaintTest {
