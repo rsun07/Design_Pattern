@@ -1,4 +1,4 @@
-package behavioralpattern.observerpattern.observer.Notification;
+package behavioralpattern.observerpattern.blog_sub.observer.Notification;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package behavioralpattern.observerpattern.observable;
+package behavioralpattern.observerpattern.blog_sub.observable;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

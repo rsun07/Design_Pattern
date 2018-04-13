@@ -1,8 +1,8 @@
-package behavioralpattern.observerpattern;
+package behavioralpattern.observerpattern.blog_sub;
 
-import behavioralpattern.observerpattern.observable.Article;
-import behavioralpattern.observerpattern.observable.Blog;
-import behavioralpattern.observerpattern.observer.Observer.BlogSubscriber;
+import behavioralpattern.observerpattern.blog_sub.observable.Article;
+import behavioralpattern.observerpattern.blog_sub.observable.Blog;
+import behavioralpattern.observerpattern.blog_sub.observer.Observer.BlogSubscriber;
 import org.junit.Test;
 
 public class BlogSubscriberTest {

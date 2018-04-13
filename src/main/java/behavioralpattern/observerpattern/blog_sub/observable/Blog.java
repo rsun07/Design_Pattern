@@ -1,6 +1,6 @@
-package behavioralpattern.observerpattern.observable;
+package behavioralpattern.observerpattern.blog_sub.observable;
 
-import behavioralpattern.observerpattern.observer.Notification.NotificationType;
+import behavioralpattern.observerpattern.blog_sub.observer.Notification.NotificationType;
 import lombok.Getter;
 
 import java.util.ArrayList;

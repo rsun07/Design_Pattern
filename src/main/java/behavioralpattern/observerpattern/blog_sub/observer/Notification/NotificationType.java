@@ -1,4 +1,4 @@
-package behavioralpattern.observerpattern.observer.Notification;
+package behavioralpattern.observerpattern.blog_sub.observer.Notification;
 
 public enum NotificationType {
     ARTICLE_UPDATE,

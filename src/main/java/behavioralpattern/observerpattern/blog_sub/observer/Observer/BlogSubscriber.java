@@ -1,9 +1,9 @@
-package behavioralpattern.observerpattern.observer.Observer;
+package behavioralpattern.observerpattern.blog_sub.observer.Observer;
 
-import behavioralpattern.observerpattern.observable.Blog;
-import behavioralpattern.observerpattern.observer.Notification.BillingNotification;
-import behavioralpattern.observerpattern.observer.Notification.NewArticleUpdate;
-import behavioralpattern.observerpattern.observer.Notification.ShutdownNotification;
+import behavioralpattern.observerpattern.blog_sub.observable.Blog;
+import behavioralpattern.observerpattern.blog_sub.observer.Notification.BillingNotification;
+import behavioralpattern.observerpattern.blog_sub.observer.Notification.NewArticleUpdate;
+import behavioralpattern.observerpattern.blog_sub.observer.Notification.ShutdownNotification;
 
 import java.util.*;
 

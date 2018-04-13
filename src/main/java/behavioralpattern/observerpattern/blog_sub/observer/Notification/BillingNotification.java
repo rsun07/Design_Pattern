@@ -1,6 +1,6 @@
-package behavioralpattern.observerpattern.observer.Notification;
+package behavioralpattern.observerpattern.blog_sub.observer.Notification;
 
-import behavioralpattern.observerpattern.observable.Blog;
+import behavioralpattern.observerpattern.blog_sub.observable.Blog;
 
 import java.util.Observable;
 import java.util.Observer;
