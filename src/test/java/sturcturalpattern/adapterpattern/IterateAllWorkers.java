@@ -6,6 +6,8 @@ import structuralpattern.adapterpattern.problem_to_solve.Developer;
 import structuralpattern.adapterpattern.problem_to_solve.Engineer;
 import structuralpattern.adapterpattern.problem_to_solve.JavaDeveloper;
 import structuralpattern.adapterpattern.problem_to_solve.SoftwareDeveloper;
+import structuralpattern.adapterpattern.using_adapter.AdapterRegistrator;
+import structuralpattern.adapterpattern.using_adapter.WorkerAdapter;
 
 public class IterateAllWorkers {
     private static Object[] workers = {
@@ -15,7 +17,7 @@ public class IterateAllWorkers {
     };
 
     @Test
-    public void noAdaptor() {
+    public void withoutAdapter() {
         for (Object worker : workers) {
             if (worker instanceof Engineer) {
                 System.out.println(((Engineer) worker).engineering());
@@ -24,6 +26,14 @@ public class IterateAllWorkers {
             } else {
                 throw new RuntimeException("Unknown worker type");
             }
+        }
+    }
+
+    @Test
+    public void withAdapter() {
+        for (Object worker : workers) {
+            WorkerAdapter workerAdapter = AdapterRegistrator.getAdapter(worker);
+            System.out.println(workerAdapter.work(worker));
         }
     }
 }
