@@ -1,4 +1,4 @@
-package sturcturalpattern.adapterpattern.problem_to_solve;
+package sturcturalpattern.adapterpattern;
 
 import org.junit.Test;
 import structuralpattern.adapterpattern.problem_to_solve.ChemicalEngineer;
@@ -8,14 +8,14 @@ import structuralpattern.adapterpattern.problem_to_solve.JavaDeveloper;
 import structuralpattern.adapterpattern.problem_to_solve.SoftwareDeveloper;
 
 public class IterateAllWorkers {
-    @Test
-    public void test() {
-        Object[] workers = {
-                new ChemicalEngineer(),
-                new JavaDeveloper(),
-                new SoftwareDeveloper()
-        };
+    private static Object[] workers = {
+            new ChemicalEngineer(),
+            new JavaDeveloper(),
+            new SoftwareDeveloper()
+    };
 
+    @Test
+    public void noAdaptor() {
         for (Object worker : workers) {
             if (worker instanceof Engineer) {
                 System.out.println(((Engineer) worker).engineering());
