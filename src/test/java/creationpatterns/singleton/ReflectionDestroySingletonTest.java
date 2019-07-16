@@ -6,7 +6,10 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Objects;
 
-public class ReflectionDestorySingletonTest {
+
+// Even though we use singleton
+// Java reflection will destroy our effort and create multiple instances
+public class ReflectionDestroySingletonTest {
     @Test
     public void test() {
 
