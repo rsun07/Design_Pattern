@@ -1,17 +1,18 @@
 package creationpatterns.singleton;
 
-public class StaticBlockInitialization extends Singleton {
+public class LazyInitialStaticBlock extends Singleton {
     private static Singleton singleton;
 
+    // thread safe but not eco
     static {
         try {
-            singleton = new StaticBlockInitialization("Static Block Initialization");
+            singleton = new LazyInitialStaticBlock("Static Block Initialization");
         } catch (Exception e) {
             throw new RuntimeException("Fail to initialize singleton");
         }
     }
 
-    private StaticBlockInitialization(String initializer){
+    private LazyInitialStaticBlock(String initializer){
         super(initializer);
     }
 

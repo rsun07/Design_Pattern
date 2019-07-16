@@ -6,7 +6,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- *     test the performance of {@code ThreadSafeLazyInit} singleton Pattern
+ *     test the performance of {@code LazyInitialThreadSafe} singleton Pattern
  *     vs {@code DoubleCheckedLockingInit} singleton Pattern
  *
  *     The result is unexpected.
@@ -18,7 +18,7 @@ public class PerformanceTest {
 
 //    @Test
 //    public void testThreadSafe() throws InterruptedException {
-//        runIt(ThreadSafeLazyInit::getInstance);
+//        runIt(LazyInitialThreadSafe::getInstance);
 //    }
 //
 //    @Test

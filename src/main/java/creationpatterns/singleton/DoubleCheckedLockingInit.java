@@ -1,12 +1,12 @@
 package creationpatterns.singleton;
 
+// Recommended
 public class DoubleCheckedLockingInit extends Singleton {
     private static Singleton singleton;
 
     private DoubleCheckedLockingInit(String initializer) {
         super(initializer);
     }
-
 
     // DON'T use it!!!
     // Not thread safe
@@ -25,6 +25,7 @@ public class DoubleCheckedLockingInit extends Singleton {
     public static Singleton getInstance() {
         if (singleton == null) {
             synchronized (DoubleCheckedLockingInit.class) {
+                // double check
                 if (singleton == null) {
                     singleton = new DoubleCheckedLockingInit("Double Checked Locking Initialization");
                 }

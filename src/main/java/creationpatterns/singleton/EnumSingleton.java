@@ -1,5 +1,6 @@
 package creationpatterns.singleton;
 
+// Recommended
 public enum EnumSingleton {
 
     INSTANCE("Initialize in Enum constructor");

@@ -7,6 +7,7 @@ public class LazyInitialization extends Singleton {
         super(initializer);
     }
 
+    // Not thread safe
     public static Singleton getInstance() {
         if (singleton == null) {
             singleton = new LazyInitialization("Lazy Initialization");
