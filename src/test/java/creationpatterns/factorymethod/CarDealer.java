@@ -9,10 +9,10 @@ public class CarDealer {
 
     public static void main(String[] args) {
         CarDealer dealerWu = new CarDealer();
-        dealerWu.todaysDeal();
+        dealerWu.todaySales();
     }
 
-    private void todaysDeal() {
+    private void todaySales() {
         Car johnsBenz = benzFactory.buildCar("John");
         johnsBenz.run();
 
@@ -25,5 +25,4 @@ public class CarDealer {
         Car Jinstoyora = toyotaFactory.buildCar("jin");
         Jinstoyora.run();
     }
-
 }

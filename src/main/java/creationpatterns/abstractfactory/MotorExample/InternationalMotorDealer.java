@@ -3,7 +3,7 @@ package creationpatterns.abstractfactory.MotorExample;
 import creationpatterns.abstractfactory.MotorExample.Elements.CustomizedChoicedElements;
 import creationpatterns.abstractfactory.MotorExample.Elements.EngineChoice;
 import creationpatterns.abstractfactory.MotorExample.Factory.ChinaMotorFactory;
-import creationpatterns.abstractfactory.MotorExample.Factory.InternationalMotorFactory;
+import creationpatterns.abstractfactory.MotorExample.Factory.MotorFactory;
 import creationpatterns.abstractfactory.MotorExample.Factory.USMotorFactory;
 import creationpatterns.abstractfactory.MotorExample.Motor.Motor;
 
@@ -12,12 +12,12 @@ public class InternationalMotorDealer {
 
     public static void main(String[] args) {
         InternationalMotorDealer Mike = new InternationalMotorDealer();
-        Mike.todayDeals();
+        Mike.todaySales();
     }
 
-    private void todayDeals() {
-        InternationalMotorFactory chinaMotorFactory = new ChinaMotorFactory();
-        InternationalMotorFactory usMotorFactory = new USMotorFactory();
+    private void todaySales() {
+        MotorFactory chinaMotorFactory = new ChinaMotorFactory();
+        MotorFactory usMotorFactory = new USMotorFactory();
 
         Motor JohnsUSHondaMotor = usMotorFactory.buildHondaMotor(
                 CustomizedChoicedElements.builder()

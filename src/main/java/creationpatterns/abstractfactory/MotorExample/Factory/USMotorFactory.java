@@ -5,7 +5,7 @@ import creationpatterns.abstractfactory.MotorExample.Motor.Motor;
 import creationpatterns.abstractfactory.MotorExample.Motor.USHondaMotor;
 import creationpatterns.abstractfactory.MotorExample.Motor.USYamahaMotor;
 
-public class USMotorFactory implements InternationalMotorFactory {
+public class USMotorFactory implements MotorFactory {
         @Override
         public Motor buildHondaMotor(CustomizedChoicedElements elements) {
             return USHondaMotor.buildUSHondaMotor(buildMotor(elements));

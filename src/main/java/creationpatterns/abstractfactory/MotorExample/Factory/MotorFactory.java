@@ -3,7 +3,7 @@ package creationpatterns.abstractfactory.MotorExample.Factory;
 import creationpatterns.abstractfactory.MotorExample.Elements.*;
 import creationpatterns.abstractfactory.MotorExample.Motor.Motor;
 
-public interface InternationalMotorFactory {
+public interface MotorFactory {
     Motor buildHondaMotor(CustomizedChoicedElements elements);
 
     Motor buildYamahaMotor(CustomizedChoicedElements elements);
